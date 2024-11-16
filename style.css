@@ -1,0 +1,59 @@
+/* Estilo para o corpo da página */
+body {
+    background-color: #e8f5e9; /* Fundo verde claro e suave */
+    font-family: 'Arial', sans-serif; /* Fonte limpa e legível */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #388e3c; /* Cor de fundo verde escuro */
+    color: white; /* Cor do texto branca */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 40px;
+    border-bottom: 5px solid #81c784; /* Borda inferior em verde mais claro */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar */
+}
+
+/* Estilo para o título principal */
+h1 {
+    font-size: 3em;
+    font-family: 'Georgia', serif; /* Fonte mais elegante para o título */
+}
+
+/* Estilo para a seção de conteúdo */
+section {
+    padding: 40px;
+    font-size: 1.2em;
+    text-align: center; /* Alinha o texto ao centro */
+    color: #388e3c; /* Cor do texto em verde escuro */
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #81c784; /* Cor de fundo verde claro */
+    color: #2c6e2f; /* Cor do texto em verde escuro */
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 5px solid #388e3c; /* Borda superior em verde escuro */
+}
+
+/* Borda arredondada para os elementos */
+header, footer {
+    border-radius: 10px;
+}
+
+/* Estilo do rodapé */
+footer p {
+    font-size: 0.9em;
+}
+
+/* Estilo do texto dentro da seção */
+section p {
+    font-size: 1.5em;
+    color: #4caf50; /* Cor de verde mais vibrante para o parágrafo */
+}
